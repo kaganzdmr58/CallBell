@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_birinci"
+        android:icon="@drawable/home_black"
+        android:title="@string/MenuBottomMain" />
+    <item
+        android:id="@+id/action_ikinci"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/MenuBottomGecmis" />
+    <item
+        android:id="@+id/action_ucuncu"
+        android:icon="@drawable/camera_alt_red_24dp"
+        android:title="@string/MenuBottomTara" />
+    <item
+        android:id="@+id/action_dorduncu"
+        android:icon="@drawable/ic_mail_black_24dp"
+        android:title="@string/MenuBottomGelenKutusu" />
+    <item
+        android:id="@+id/action_besinci"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/MenuBottomAyarlar" />
+
+</menu>

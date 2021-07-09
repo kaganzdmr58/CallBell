@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "660271583948",
+    "firebase_url": "https://callbellapp-6f351.firebaseio.com",
+    "project_id": "callbellapp-6f351",
+    "storage_bucket": "callbellapp-6f351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660271583948:android:c167285568f3ac424ca869",
+        "android_client_info": {
+          "package_name": "com.callbellapp.callbell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660271583948-qrgcktouqk05rke4qeqkc1jvtms4l6hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.callbellapp.callbell",
+            "certificate_hash": "a35b701a6806365bf9db07b0540b7cd33fc6aad7"
+          }
+        },
+        {
+          "client_id": "660271583948-3afhelhemccrau5kkdin31mdurppop2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBW4P2AEF2tcQVdH140Es1rBm6FTcvdwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660271583948-3afhelhemccrau5kkdin31mdurppop2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660271583948:android:743da7ef7503bdfa4ca869",
+        "android_client_info": {
+          "package_name": "com.example.helloworld2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660271583948-gssudagnc88pjse05r1ccv7jeurk9mn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.helloworld2",
+            "certificate_hash": "a35b701a6806365bf9db07b0540b7cd33fc6aad7"
+          }
+        },
+        {
+          "client_id": "660271583948-3afhelhemccrau5kkdin31mdurppop2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBW4P2AEF2tcQVdH140Es1rBm6FTcvdwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660271583948-3afhelhemccrau5kkdin31mdurppop2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

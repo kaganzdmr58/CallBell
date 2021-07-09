@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.callbellapp.callbell">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_room_service_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_room_service_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".KampanyaGoster.KampanyaGosterActivity"></activity>
+
+        <receiver
+            android:name=".Alarm.AcilisYalamaReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".Alarm.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".IsletmeMesajlariActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".GelenKutusuActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".GecmisYerlerActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.IsletmeBilgilerActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.MenuResimEkleActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.KampanyaResimEkleActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MenuGoster.MenuGosterActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.DilekVeSikayetlerActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Isletme.ScannerIsletmeActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Isletme.CagrilarActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.PersonelDetayActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.PersonelActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Yonetici.YoneticiMainActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Isletme.IsletmeSecimActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Isletme.MasalarDetayActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".Isletme.MasalarActivity"
+                  android:screenOrientation="portrait"/>
+        <activity
+            android:name=".YonetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScannerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginKayitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstekMesajActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AyarlarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2183039164562504~2945725091" />
+    </application>
+
+</manifest>

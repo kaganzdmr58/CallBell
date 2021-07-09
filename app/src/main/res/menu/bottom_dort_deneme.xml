@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/home_black"
+        android:title="main" />
+    <item
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="geçmiş" />
+    <item
+        android:icon="@drawable/camera_alt_red_24dp"
+        android:title="tara" />
+    <item
+        android:icon="@drawable/ic_mail_black_24dp"
+        android:title="gelen kutusu" />
+    <item
+        android:icon="@drawable/adam_resmi"
+        android:title="profil" />
+</menu>

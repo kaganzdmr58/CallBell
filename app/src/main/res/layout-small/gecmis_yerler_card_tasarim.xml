@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:padding="2dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewIsletmeSloganGecmisYerler"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:text="@string/IsletmeMesajlariSlogan"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewIsletmeAdi22" />
+
+            <ImageView
+                android:id="@+id/imageViewIcon"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/room_service_red_48dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSil"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_clear_black_24dp" />
+
+            <Button
+                android:id="@+id/buttonKampanyalar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/buttonshape_3"
+                android:text="@string/IsletmeMesajlariKampanya"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toStartOf="@+id/buttonMesajlar"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonMenu"
+                app:layout_constraintTop_toTopOf="@+id/buttonMesajlar" />
+
+            <Button
+                android:id="@+id/buttonMesajlar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/buttonshape_3"
+                android:text="@string/YoneticiMainMesajlar"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonKampanyalar"
+                app:layout_constraintTop_toBottomOf="@+id/textViewIsletmeSloganGecmisYerler" />
+
+            <Button
+                android:id="@+id/buttonMenu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/buttonshape_3"
+                android:text="@string/IsletmeMesajlariMenu"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toStartOf="@+id/buttonKampanyalar"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/buttonMesajlar" />
+
+            <TextView
+                android:id="@+id/textViewIsletmeAdi22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="CallBell App"
+                android:textColor="#5D4037"
+                android:textSize="16dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewIcon" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/IsletmeMesajlariEmail"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewGecmisEmail"
+                app:layout_constraintStart_toStartOf="@+id/textViewTel"
+                app:layout_constraintTop_toTopOf="@+id/imageViewGecmisEmail" />
+
+            <TextView
+                android:id="@+id/textViewAdres"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:text="@string/IsletmeMesajlariAdres"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textViewWeb"
+                app:layout_constraintTop_toTopOf="@+id/imageViewGecmisAdres"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textViewTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/IsletmeMesajlariTel"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewGecmisTel"
+                app:layout_constraintStart_toEndOf="@+id/imageViewGecmisTel"
+                app:layout_constraintTop_toTopOf="@+id/imageViewGecmisTel"
+                app:layout_constraintVertical_bias="0.588" />
+
+            <TextView
+                android:id="@+id/textViewWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/IsletmeMesajlariWeb"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewGecmisWeb"
+                app:layout_constraintStart_toStartOf="@+id/textViewEmail"
+                app:layout_constraintTop_toTopOf="@+id/imageViewGecmisWeb" />
+
+            <ImageView
+                android:id="@+id/imageViewGecmisTel"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toTopOf="@+id/imageViewGecmisEmail"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonKampanyalar"
+                app:srcCompat="@drawable/ic_phone_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageViewGecmisAdres"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerInside"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="@+id/imageViewGecmisWeb"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewGecmisWeb"
+                app:srcCompat="@drawable/ic_location_on_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageViewGecmisEmail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toTopOf="@+id/imageViewGecmisWeb"
+                app:layout_constraintStart_toStartOf="@+id/imageViewGecmisTel"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewGecmisTel"
+                app:srcCompat="@drawable/ic_email_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageViewGecmisWeb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/imageViewGecmisAdres"
+                app:layout_constraintStart_toStartOf="@+id/imageViewGecmisEmail"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewGecmisEmail"
+                app:srcCompat="@drawable/ic_web_black_24dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

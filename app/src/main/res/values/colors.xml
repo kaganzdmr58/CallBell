@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="arkaplan">#673AB7</color>
+    <color name="baslik">#795548</color>
+    <color name="buttonRengi">#D50000</color>
+
+    <color name="butonTextColor">#DD000000</color>
+    <color name="colorPrimaryDarkRed">#D32F2F</color>
+    <color name="toolbarArkaPlanRengi">#F7F4F4</color>
+    <color name="sayfaArkaPlanRFengi">#00FFFEFE</color>
+    <color name="canliKirmizi">#FF1744</color>
+
+    <color name="butonKahverengi">#795548</color>
+</resources>

@@ -1,0 +1,330 @@
+<resources>
+    <string name="app_name">CallBell</string>
+    // genel içerisinde çoklu yerde kullanılanlar olacak. özeller ise örn login kayıt ve login activityleri ile beraber yer alacak.
+
+    // Genel yazilar
+    <string name="Tamam">"Ok"</string>
+    <string name="Kayıt">"Record"</string>
+    <string name="Kaydet">"Save"</string>
+    <string name="Iptal">"Cancel"</string>
+    <string name="KayıtEdildi">"It is recorded."</string>
+    <string name="KayıtİptalEdildi">"Registration canceled."</string>
+    <string name="IsletmeModunuAktifDegil">"Workplace mode is not active."</string>
+    <string name="Evet">"Yes"</string>
+    <string name="Hayır">"No"</string>
+    <string name="Gonder">"Send"</string>
+
+    //Main Activity
+    <string name="MainOrderEnteryHint">"Enter your order"</string>
+    <string name="MainShowEditText">"An internet connection error occurred :("</string>
+    <string name="MainZilButton">"Bell"</string>
+    <string name="MainMenuButton">"Menu"</string>
+    <string name="MainGonderButton">"Send"</string>
+    <string name="MainOturumAcikDegil">"Session is not open."</string>
+    <string name="MainCihazOturumSorun">"There was a problem logging in the device, please login again."</string>
+    <string name="MainGarsonCagirmakIcinQrCode">"Welcome to the CallBell App. \nPlease scan the QR code on your desk to call a waiter and give a sparish."</string>
+    <string name="MainButtonBellYazi">"The bell was printed."</string>
+    <string name="MainbutonHesapOtoYaziHesabiİstedi">"Wanted account"</string>
+    <string name="MainButtonHesapOtoYaziMenuIstedi">"Wanted Menu"</string>
+    <string name="MainButtonMenuYazisi">"Account"</string>
+    <string name="MainGelenMesajlar">"Incoming Messages"</string>
+    <string name="MainZilCaldiYazisi"> "Bell rang "</string>
+    <string name="MainIcerikSilinsinMi">"Delete content?"</string>
+    <string name="MainIcerikSilindi">"Content was delete."</string>
+    <string name="MainCallBellHosgeldiniz">"Welcome to the CallBell application."</string>
+    <string name="MainQrTaratilmadigiIcin">"We cannot perform the operation because the business qr code is not scanned."</string>
+    <string name="MainBilgiler">"Informations : "</string>
+    <string name="MainKampanyalar">"Campaigns : "</string>
+    <string name="MainGarsonCagirAlertMesaj">"Please scan the QR code on your table to call a waiter and give a sparch."</string>
+    <string name="MainScanr">"Scan"</string>
+    <string name="MainQrKoduTara">"Scan QR code"</string>
+    <string name="resimAlIsletmeID">"2"</string>
+    <string name="MainSparisMerhaba">"Hi "</string>
+    <string name="MainSparisVermekIcin">",\nplease read the QR code to order"</string>
+    <string name="MainSparisVermekIcin2">",\nenter your order here"</string>
+    <string name="MainGorusOneri">"Opinion Suggestion"</string>
+    <string name="MainGorusOneriMesaj">"Would you like to share valuable ideas about our business or application?"</string>
+    <string name="MainCagrinizIletildi">"Your call has been forwarded"</string>
+
+
+
+    //Profil activity
+    <string name="ProfilNameTextView">"User Name :"</string>
+    <string name="ProfilEmailTextview">"E mail :"</string>
+    <string name="ProfilSifreTextview">"Password :"</string>
+    <string name="ProfilCikisYapTextview">"Log out"</string>
+    <string name="ProfilEmail">"E mail : "</string>
+    <string name="ProfilKullaniciAdi">"User name : "</string>
+    <string name="ProfilPassword">"Password : "</string>
+    <string name="ProfilKullanıcıAdi">"User Name"</string>
+    <string name="ProfilKullaniciAdiDegistirildi">"Username changed."</string>
+    <string name="ProfilKayitIptalEdildi">"Registration was canceled."</string>
+    <string name="ProfilEMailGuncellemeYapılamaz">"E-mail update is not possible."</string>
+    <string name="ProfilPasswordGuncellemeYapılamaz">"Password update is not possible."</string>
+    <string name="ProfilQRCodunuz">"Your QR cod : "</string>
+    <string name="ProfilGorusOnerideBulun">"Give comments and suggestions"</string>
+    <string name="ProfilCikisYapAlertBaslik">"Log out"</string>
+    <string name="ProfilQrKoduKaydet">"Do you want to save the QR code? "</string>
+    <string name="ProfilOturumQrKodu">"Session_QR_code_"</string>
+    <string name="IsletmeQrKodu">"Bussinnes_QR_Code_"</string>
+    <string name="ProfilCikisYapmakIstiyormusunuz">"Do you want to sign out?"</string>
+
+
+    //Yonet detay Activity
+    <string name="YonetDetayMasaAdiTextView">"Table"</string>
+    <string name="YonetDetayGelenMesajlarTextView">"Incoming Messages"</string>
+    <string name="YonetDetayQRCodeKayitEdilsinMi">"Save QR Code?"</string>
+    <string name="YonetDetayKayitIptalEdildi">"Registration was canceled."</string>
+    <string name="YonetDetayAdı">"Name"</string>
+    <string name="YonetDetayAlertHint">"Ex: 'Table' (numbering is done automatically.)"</string>
+    <string name="YonetDetayAlertUyarıToastMesajı">"Changes can only be made by the session that generates the Qr Cod."</string>
+    <string name="YonetDetayResimKaydedildi">Image saved: </string>
+    <string name="YonetDetayMasaNu">"Table"</string>
+    <string name="YonetDetayMesaj">"Message"</string>
+    <string name="YonetDetaySaat">"Hour"</string>
+
+
+    //ScannerActivity
+    <string name="ScannerMasaQrTaratın">"Please scan the CallBell table QR code."</string>
+    <string name="ScannerBulundugunuzMasaQrTaratın">"Please scan the CallBell Masa QR code of the table you are on."</string>
+    <string name="ScannerCallBellQrDegil">"It is not a QR code created with the CallBell application."</string>
+    <string name="ScannerIsletmeQRTara">"Please scan the BUSINESS QR code you want to include."</string>
+    <string name="ScannerYoneticiModuAktif">"Admin mode is active"</string>
+    <string name="ScannerIsletmeQrTaraIlk">"Scan the Business QR Code."</string>
+    <string name="ScannerInternetSitesineYonlendiriliyorsunuz">"You are redirecting to the website..."</string>
+
+    //YoneticiMain
+    <string name="YoneticiMainPersonelListesi">"List of staff"</string>
+    <string name="YoneticiMainMasalar">"Tables"</string>
+    <string name="YoneticiMainDilekVeSikayetler">"Wishes and Complaints"</string>
+    <string name="YoneticiMainİsletmeQrKodu">"Business Qr Code"</string>
+    <string name="YoneticiIndirimKodu">"Discount and Campaign Letter"</string>
+    <string name="YoneticiİsletmeBilgiler">"Business Information"</string>
+    <string name="YoneticiMainİsletmeAdi">"Enter Business Name"</string>
+    <string name="YoneticiMainİsletmeBilgiGuncellendi">"Business information has been successfully updated."</string>
+    <string name="YoneticiMainMusteriMainEkranGuncellendi">"Articles to be displayed on the customer main screen have been updated."</string>
+    <string name="YoneticiMainMusteriMainEkranGuncellendi2">"Business information updated"</string>
+    <string name="YoneticiMainGosterilecekIndirimveKampanyalar">"Discounts and campaigns to be shown on the customer home screen"</string>
+    <string name="YoneticiMainGosterilecekIndirimveKampanyalarBuyuk">"Discounts and Campaigns to be Displayed on the Customer Main Screen"</string>
+    <string name="YoneticiMainİsletmeBilgileri">"Business Information"</string>
+    <string name="YoneticiMainİsletmeBilgileriniGiriniz">"Enter Business Information."</string>
+
+    //Personel
+    <string name="PersonelBaslik">"List of staff "</string>
+    <string name="PersonelDetayAdi">"NAME "</string>
+    <string name="PersonelDetayGorev">"TASK    "</string>
+    <string name="PersonelDetayTelefon">"PHONE "</string>
+    <string name="PersonelDetayAdiHint">"Name and surname of the staff"</string>
+    <string name="PersonelDetayGorevHint">"The task of the staff"</string>
+    <string name="PersonelDetayTelefonHint">"Personelin telefonu"</string>
+    <string name="PersonelDetayNotlar">"Notes"</string>
+    <string name="PersonelAdiveGorevi">"Personnel name - task"</string>
+    <string name="PersonelEkleme">"Adding staff"</string>
+    <string name="PersonelEklemeAciklama">"In order to add personnel, the staff must have the business QR code."</string>
+    <string name="PersonelBilgileriKayitEdildi">"Staff information was recorded."</string>
+    <string name="PersonelCardTasarim">"Personnel name - task"</string>
+
+
+    //Masalar
+    <string name="MasalarBaslik">"TABLES "</string>
+    <string name="MasalarDetayBaslik">"Table 1"</string>
+    <string name="MasalarDetayGelenMesajlar">"Incoming Notifications"</string>
+    <string name="MasalarDetayMasa">"Table "</string>
+    <string name="MasalarIsletmeIDHatasi">"Business ID error received."</string>
+    <string name="MasalarMasaIsmıDegistirme">"Changing the table name can only be done by the business manager."</string>
+    <string name="MasalarSiparislerBuraya">"Enter the Sparis here."</string>
+    <string name="MasalarSiparislerGonderildi">"Sparis were sent."</string>
+    <string name="MasalarSiparislerIptalEdildi">"Sparis has been canceled."</string>
+    <string name="MasalarMasanınAdi">"Name of the table "</string>
+    <string name="MasalarDegisti">" changed to."</string>
+    <string name="MasalarIsletmeQRKodu">"Business QR Code"</string>
+
+
+
+    //İstekMesaj  Dilek ve şikayetler
+    <string name="IstekGorusOneri">Opinions or Suggestions</string>
+    <string name="IstekKurumYonetimi">Provide Opinions and Suggestions to \nCorporate Management</string>
+    <string name="IstekGonderButton">Send</string>
+    <string name="IstekUygulamaGelistiricisineIstek">Give feedback to the app developer</string>
+    <string name="IStekMusteriMail">"Customer Mail : "</string>
+    <string name="IstekUygulamaGelistiriciyeMesajGonderildi">"Your message has been sent to the app developer."</string>
+    <string name="IstekIsletmeSahibineMesajIletildi">"Your message has been sent to the business owner."</string>
+    <string name="IstekQrCodeOkutulamadıgıIcınGonderilemedi">" Unable to send data to the QR code is not taught."</string>
+    <string name="IstekUygulamaGeriBildirim">"Application feedback"</string>
+    <string name="IstekIsletmeYonetımıneGorusOnerideBulun">"Give Opinions and Suggestions to Business Management"</string>
+    <string name="IstekUygulamaGelistiricisineIstekMesajıGiriniz">"Enter your requests to the application developer"</string>
+    <string name="IstekUygulamaGelistiricisineIstekMesajıGirinizKisa">"Enter your requests to the application \ndeveloper"</string>
+    <string name="IstekUygulamaGelsitircisineGorusOnerideBulun">"Give comments and suggestions to the application developer"</string>
+    <string name="IstekKurumYonetimineGorusOnerideBulun">"Provide Opinions and Suggestions to Corporate Management"</string>
+    <string name="IstekDilekveSikayetler">"Wishes and Complaints"</string>
+    <string name="IstekMasaAdiTarih">"Table name and date time"</string>
+    <string name="IstekDilekveSikayet">"Wishes and complaints"</string>
+    <string name="IstekMusteriAdveEmail">"customer name and e mail"</string>
+
+    // IsletmeSecim
+    <string name="IsletmeSecimİsletmeSeciniz">"Choose Business"</string>
+    <string name="IsletmeSecimIsletmeyeDahilOlText">"If you are working in an existing business, press the button below and scan the BUSINESS QR code."</string>
+    <string name="IsletmeSecimIsletmeyeDahilOlButton">"Get involved in the business"</string>
+    <string name="IsletmeSecimIsletmeKurButton">"Start New Business"</string>
+    <string name="IsletmeSecimIsletmeKurText">"If you are the business owner or manager, press the button below to start your business."</string>
+    <string name="IsletmeSecimIsletmeKurmadaHata">"There was an error in starting a business."</string>
+    <string name="IsletmeSecimTebriklerIsletmenizBasariylaKuruldu">"Congratulations, your business has been successfully established !!!"</string>
+
+
+
+    // Cagrilar
+    <string name="CagrilarGelenTumBildirimler">"All Incoming Notifications"</string>
+    <string name="CagrilarSiparis">"Order"</string>
+
+
+    // Ayarlar activity
+    <string name="AyarlarName">"SETTINGS "</string>
+    <string name="AyarlarProfilGizliligi">"PROFILE"</string>
+    <string name="AyarlarKullanıcıAdiGorunsunMu">"Show my username"</string>
+    <string name="AyarlarIsletme">"BUSINESS"</string>
+    <string name="AyarlarZilSesiAyarlari">"Ringtone settings"</string>
+    <string name="AyarlarBildirimZilTonuSec">"Choose Notification Ringtone"</string>
+    <string name="AyarlarIsletmeModu">"Operating mode"</string>
+    <string name="AyarlarIsletmeKur">"Create business"</string>
+    <string name="AyarlarBildirimSaati">"Notification time : "</string>
+    <string name="AyarlarUygulamaHakkında">"About Application"</string>
+    <string name="AyarlarUygulamaHakkındaKısaBilgilendirme">"Brief Information About Application"</string>
+    <string name="AyarlarMerhaba">"Hi "</string>
+    <string name="AyarlarBilgilendirmeMetni">"\n\nCallBell welcome to the application.\n\nYou can browse the menu via app, " +
+                        "you can order, call the waiter, see campaigns, see where you go, " +
+                        "you can look at the menu of the places you visit whenever you want, access current information, view" +
+                        " you can suggest.\n\nRead the CallBell QR cod on your desk and let's get started ..." +
+                        "\n\n(If you don't have the CallBell QR code on your desk, ask why they missed this unique opportunity.) " +
+                        "\n\nIf you are the business owner, please click the settings tab to do all of this at no cost. " +
+                        "your mode of operation is little."</string>
+    <string name="AyarlarAlarmAyarlandı">"Alarm set"</string>
+    <string name="AyarlarSaatSeciniz">"Select Time"</string>
+    <string name="AyarlarAyarla">"Settings"</string>
+
+
+    //Login activity
+    <string name="LoginEmailHint">Mail address</string>
+    <string name="loginPasswordHint">Password</string>
+    <string name="LoginGirisButon">Sign in</string>
+    <string name="LoginKayitEditText">Register</string>
+    <string name="LoginKullaniciAdiVeParolaHatali">"Username or password incorrect."</string>
+    <string name="LoginOturumAcildiYazi">"Signed in:" </string>
+    <string name="LoginKayitAdHint">Name</string>
+    <string name="LoginKayitEmailHint">E mail</string>
+    <string name="LoginKayitSifreHint">Password</string>
+    <string name="LoginKaiytKaydetButton">Save</string>
+    <string name="LoginKayitBasarili">Login successful.</string>
+    <string name="LoginKayitHatali">Login incorrect.</string>
+    <string name="LoginKayitKullanıcıAdı">User name : </string>
+    <string name="LoginKayitSoyadHint">"Surname"</string>
+    <string name="LoginEmailGiriniz">"please enter an e-mail address."</string>
+    <string name="LoginParolaGiriniz">"please enter your password."</string>
+    <string name="LoginParola6RakamdanAz">"The password cannot be less than 6 digits."</string>
+    <string name="LoginParolaEmail">"E-mail address must have '@'."</string>
+    <string name="LoginParolaEmailSonu">"The end of the e-mail address is '.com, .net' etc. should end with."</string>
+    <string name="LoginSifremiUnuttum">"I forgot my password"</string>
+    <string name="LoginAdresineGonderildi">" sent to"</string>
+    <string name="LoginSifreGuncellemedeHataOlustu">"Error updating password, check your e-mail address"</string>
+
+
+    // geçmiş yerler activity
+    <string name="GecmisYerlerZiyaretEdilenYerler">"Places Visited"</string>
+
+    // gelen Kutusu activity
+    <string name="GelenKutusuGelenMesajlar">"Incoming Messages"</string>
+    <string name="GelenKutusuIsletmeAdiVeTarih">"Business name - date time"</string>
+    <string name="GelenKutusuMetni">"Daily discount and campaign text of the business"</string>
+
+    // işletme bilgiler activity
+    <string name="IsletmeBilgilerIsletmeAdınızıGiriniz">"Enter the name of your business"</string>
+    <string name="IsletmeBilgilerIsletmeSloganınızıGiriniz">"Enter the slogan of your business"</string>
+    <string name="IsletmeBilgilerTelefon">"Telephone"</string>
+    <string name="IsletmeBilgilerEmail">"E mail"</string>
+    <string name="IsletmeBilgilerWebAdres">"Web address"</string>
+    <string name="IsletmeBilgilerAdres">"Address"</string>
+    <string name="IsletmeBilgilerResimDegistirilsinMi">"Change image?"</string>
+    <string name="IsletmeBilgilerResimYuklemedeHataOlustu">"Error uploading image. Please try again."</string>
+    <string name="IsletmeBilgilerResimYuklemeTamamlandı">"Upload Image Complete"</string>
+    <string name="IsletmeBilgilerTitle">"Business information"</string>
+
+    // işletme Mesajları Activity
+    <string name="IsletmeMesajlariSlogan">"CallBell is more than a ring ..."</string>
+    <string name="IsletmeMesajlariBilgiler">"Informations"</string>
+    <string name="IsletmeMesajlariMenu">"Menu"</string>
+    <string name="IsletmeMesajlariKampanya">"Campaign"</string>
+    <string name="IsletmeMesajlariTel">"Tel : "</string>
+    <string name="IsletmeMesajlariEmail">"E-mail : "</string>
+    <string name="IsletmeMesajlariWeb">"Web : "</string>
+    <string name="IsletmeMesajlariAdres">"Address : "</string>
+    <string name="IsletmeMesajlariSaatTarih">"Date and time"</string>
+    <string name="IsletmeMesajlariMetni">"Daily campaign text"</string>
+    <string name="IsletmeMesajlariKampanyaVeDuyuruMesajlari">"Campaign and announcement messages"</string>
+    <string name="IsletmeMesajlariKampanyaVeDuyuruMesajlarıGiriniz">"Enter campaign and announcement messages."</string>
+    <string name="IsletmeMesajlariBilgilendirme">"Information"</string>
+    <string name="IsletmeMesajlariBilgilendirmeMesajlari">
+                        "       The messages you enter in this section will be sent to your customers who have already visited you. \n" +
+                        "       It is important to send 1-2 notifications a day so that your business is constantly reminded and does not get bored. \n" +
+                        "       It is a very effective marketing method, especially to announce the campaigns and upcoming events. \n" +
+                        "       You can think of this service, which is offered for free, as sms or email marketing."</string>
+    <string name="IsletmeMesajlariTelefon2">"Tel      : "</string>
+    <string name="IsletmeMesajlariemail2">"\nE-mail : "</string>
+    <string name="IsletmeMesajlariWebAdres2">"\nWeb    : "</string>
+    <string name="IsletmeMesajlariAdress2">"\nAddress  : "</string>
+    <string name="IsletmeMesajlariIsletmeMesajlariGirilmemis">"Business information has not been entered by the business."</string>
+    <string name="IsletmeMesajlariIsletmeBilgileri">"Business Information"</string>
+
+
+    //Kampanya Ekle Activity
+    <string name="KampanyaEkleYukle">"Load"</string>
+    <string name="KamoanyaResmiYukleBaslik">"Upload Campaign Image"</string>
+    <string name="KampanyaResmiResimYuklemedeHataOlustu">"Error uploading image. Please try again."</string>
+    <string name="KampanyaResimleriResimDoldu">"7 / 7 you must delete pictures from existing ones to upload ..."</string>
+
+    // Kampanya goster aktivity
+    <string name="KampanyaGosterIsletmeHenüzResimEklemedi">"Business has not yet added Campaign image"</string>
+
+    // Menu göster activity
+    <string name="MenuGosterIsletmeHenuzResimEklemedi">"Business menu has not been added yet"</string>
+    <string name="MenuGosterIsletmeModuAcikOlduguIcın">"Since the operating mode is on, enter the order by selecting the table from the tables screen."</string>
+    <string name="MenuGosterResimleriResimDoldu">"14 / 14 you must delete pictures from existing ones to upload ..."</string>
+    <string name="MenuGosterSparisinizıletildi">"Your order has been delivered"</string>
+
+    //Menu Resim Ekle Activity
+    <string name="MenuEkleBaslik">"Menu Add Picture"</string>
+
+    //Yonetici Main Activity
+    <string name="YoneticiMainMenuResimleri">"Menu Pictures"</string>
+    <string name="YoneticiMainKampanyaResimleri">"Campaign Pictures"</string>
+    <string name="YoneticiMainIsletmeBilgileri">"Business information"</string>
+    <string name="YoneticiMainGunlukKampanyalarım">"My Daily Campaigns"</string>
+    <string name="YoneticiMainMesajlar">"Messages"</string>
+
+    //AlarmReceiver
+    <string name="AlarmReceiverAlarmMetni">"Wouldn't you like to look at the great campaigns we have chosen for you?"</string>
+
+    //kampanya ekle activity
+    <string name="kampanyaEkleBilgilendirme">"
+        - Campaign pictures are the area where you can add picture marketing tools (brochures) on the tables.\n
+        - Your photos will appear on the customer's home screen and your business page information.\n
+        - It is recommended to choose ratios such as 1 X 1, 4 X 3 in the pictures to be used."</string>
+
+    //Menu Resim Ekle Activity
+    <string name="menuResimEkleBilgilendirme">"
+        - This is the area where you can add existing menu photos.\n
+        - The customer will be able to instantly view your menu at any time.\n
+        - Your pictures will be displayed on the full page, it is recommended to choose ratios such as 1 X 2, 3 X 4."</string>
+
+    // Menuler
+    <string name="MenuBottomMain">"Main"</string>
+    <string name="MenuBottomTara">"Scan"</string>
+    <string name="MenuBottomProfil">"Profile"</string>
+
+
+    <string name="MenuBottomGecmis">"Past"</string>
+    <string name="MenuBottomGelenKutusu">"Inbox"</string>
+    <string name="MenuBottomAyarlar">"Settings"</string>
+
+
+
+
+</resources>

@@ -1,0 +1,320 @@
+<resources>
+    <string name="app_name">Callbell</string>
+    // genel içerisinde çoklu yerde kullanılanlar olacak. özeller ise örn login kayıt ve login
+    // activityleri ile beraber yer alacak.
+
+    // Genel yazilar
+    <string name="Tamam">"Tamam"</string>
+    <string name="Kayıt">"Kayıt"</string>
+    <string name="Kaydet">"Kaydet"</string>
+    <string name="Iptal">"İptal"</string>
+    <string name="KayıtEdildi">"Kayıt başarılı"</string>
+    <string name="KayıtİptalEdildi">"Kayıt iptal edildi."</string>
+    <string name="IsletmeModunuAktifDegil">"İşletme modu aktif değil."</string>
+    <string name="Evet">"Evet"</string>
+    <string name="Hayır">"Hayır"</string>
+    <string name="Gonder">"Gönder"</string>
+
+    //Main Activity
+    <string name="MainOrderEnteryHint">"Siparişinizi giriniz"</string>
+    <string name="MainShowEditText">"İnternet bağlantısında hata oluştu :("</string>
+    <string name="MainZilButton">"Zil"</string>
+    <string name="MainMenuButton">"Menu"</string>
+    <string name="MainGonderButton">"Gönder"</string>
+    <string name="MainOturumAcikDegil">"Oturum açık değil."</string>
+    <string name="MainCihazOturumSorun">"Cihaz oturum açmada sorun oluştu lütfen oturumunuzu tekrar açınız."</string>
+    <string name="MainGarsonCagirmakIcinQrCode">"CallBell Uygulamasına hoşgeldiniz. \nGarson çağırmak ve spariş verebilmek için lütfen masanızda bulunan QR kodu taratınız."</string>
+    <string name="MainButtonBellYazi">"Zile basıldı."</string>
+    <string name="MainbutonHesapOtoYaziHesabiİstedi">"Hesabı istedi"</string>
+    <string name="MainButtonHesapOtoYaziMenuIstedi">"Menu istedi"</string>
+    <string name="MainButtonMenuYazisi">"Hesap"</string>
+    <string name="MainGelenMesajlar">"Gelen Mesajlar"</string>
+    <string name="MainZilCaldiYazisi"> "Zil çaldı"</string>
+    <string name="MainIcerikSilinsinMi">"İçerik silinsin mi?"</string>
+    <string name="MainIcerikSilindi">"İçerik sinindi."</string>
+    <string name="MainCallBellHosgeldiniz">"CallBell uygulamasına hoşgeldiniz."</string>
+    <string name="MainQrTaratilmadigiIcin">"İşletme qr codu taratılmadığı için işlemi gerçekleştiremiyoruz."</string>
+    <string name="MainBilgiler">"Bilgiler : "</string>
+    <string name="MainKampanyalar">"Kampanyalar : "</string>
+    <string name="MainGarsonCagirAlertMesaj">"Garson çağırmak ve spariş verebilmek için \nlütfen masanızdaki QR kodu taratınız."</string>
+    <string name="MainScanr">"Scan"</string>
+    <string name="MainQrKoduTara">"QR kodu Tara"</string>
+    <string name="resimAlIsletmeID">"2"</string>
+    <string name="MainSparisMerhaba">"Merhaba "</string>
+    <string name="MainSparisVermekIcin">",\nspariş verebilmek için QR kodu okutunuz"</string>
+    <string name="MainSparisVermekIcin2">",\nsiparişinizi buraya giriniz"</string>
+    <string name="MainGorusOneri">"Görüş Öneri"</string>
+    <string name="MainGorusOneriMesaj">"İşletme veya uygulamamız hakkında değerli fikirleriniz paylaşmak ister misiniz?"</string>
+    <string name="MainCagrinizIletildi">"Çağrınız iletildi"</string>
+
+    //Profil activity
+    <string name="ProfilNameTextView">"Adı : "</string>
+    <string name="ProfilEmailTextview">"E mail : "</string>
+    <string name="ProfilSifreTextview">"Şifre : "</string>
+    <string name="ProfilQRCodunuz">"ID : "</string>
+    <string name="ProfilGorusOnerideBulun">"Görüş ve öneride bulunun"</string>
+    <string name="ProfilCikisYapTextview">"Çıkış yap"</string>
+    <string name="ProfilCikisYapAlertBaslik">"Çıkış"</string>
+    <string name="ProfilEmail">"E mail : "</string>
+    <string name="ProfilKullaniciAdi">"Ad : "</string>
+    <string name="ProfilPassword">"Password : "</string>
+    <string name="ProfilKullanıcıAdi">"Kullanıcı Adı"</string>
+    <string name="ProfilKullaniciAdiDegistirildi">"Kullanıcı adı değiştirildi."</string>
+    <string name="ProfilKayitIptalEdildi">"Kayıt iptal edildi."</string>
+    <string name="ProfilEMailGuncellemeYapılamaz">"E mail güncelleme yapılamamaktadır."</string>
+    <string name="ProfilPasswordGuncellemeYapılamaz">"Password güncelleme yapılamamaktadır."</string>
+    <string name="ProfilQrKoduKaydet">"Qr kodu kaydetmek istiyor musunuz? "</string>
+    <string name="ProfilOturumQrKodu">"Oturum_QR_kodu_"</string>
+    <string name="IsletmeQrKodu">"Isletme_QR_kodu_"</string>
+    <string name="ProfilCikisYapmakIstiyormusunuz">"Çıkış yapmak istiyor musunuz?"</string>
+
+
+    //Yonet detay Activity
+    <string name="YonetDetayMasaAdiTextView">"Masa"</string>
+    <string name="YonetDetayGelenMesajlarTextView">"Gelen Bildirimler"</string>
+    <string name="YonetDetayQRCodeKayitEdilsinMi">"QR Code kayıt edilsin mi?"</string>
+    <string name="YonetDetayKayitIptalEdildi">"Kayıt iptal edildi."</string>
+    <string name="YonetDetayAdı">"Adı"</string>
+    <string name="YonetDetayAlertHint">"Örn : 'Masa'  (numaralandırma otomatik yapılmaktadır.)"</string>
+    <string name="YonetDetayAlertUyarıToastMesajı">"Yalnızca Qr Codu üreten oturum tarafından değişiklik yapılabilir."</string>
+    <string name="YonetDetayResimKaydedildi">"Resim kaydedildi : "</string>
+    <string name="YonetDetayMasaNu">"Masa nu"</string>
+    <string name="YonetDetayMesaj">"Mesaj"</string>
+    <string name="YonetDetaySaat">"Saat"</string>
+
+
+    //ScannerActivity
+    <string name="ScannerMasaQrTaratın">"Lütfen CallBell masa QR kodunu taratınız."</string>
+    <string name="ScannerBulundugunuzMasaQrTaratın">"Lütfen bulunduğunuz masanın CallBell Masa QR kodunu taratınız."</string>
+    <string name="ScannerCallBellQrDegil">"CallBell uygulaması ile oluşturulmuş bir QR kod değil."</string>
+    <string name="ScannerIsletmeQRTara">"Lütfen dahil olmak istediğiniz İŞLETME QR kodunu taratınız."</string>
+    <string name="ScannerYoneticiModuAktif">"Yonetici modu aktif"</string>
+    <string name="ScannerIsletmeQrTaraIlk">"İşletme QR Kodunu taratınız."</string>
+    <string name="ScannerInternetSitesineYonlendiriliyorsunuz">"İnternet sitesine yönlendirirliyorsunuz..."</string>
+
+    //YoneticiMain
+    <string name="YoneticiMainPersonelListesi">"Personel Listesi"</string>
+    <string name="YoneticiMainMasalar">"Masalar"</string>
+    <string name="YoneticiMainDilekVeSikayetler">"Dilek ve Şikayetler"</string>
+    <string name="YoneticiMainİsletmeQrKodu">"İşletme Qr Codu"</string>
+    <string name="YoneticiIndirimKodu">"İndirim ve Kampanya Yazısı"</string>
+    <string name="YoneticiİsletmeBilgiler">"İşletme Bilgileri"</string>
+    <string name="YoneticiMainİsletmeAdi">"İşletme Adını Giriniz"</string>
+    <string name="YoneticiMainİsletmeBilgiGuncellendi">"İşletme bilgileri başarıyla güncellendi."</string>
+    <string name="YoneticiMainMusteriMainEkranGuncellendi">"Müşteri main ekranı yazısı güncellendi."</string>
+    <string name="YoneticiMainMusteriMainEkranGuncellendi2">"İşletme bilgileri güncellendi"</string>
+    <string name="YoneticiMainGosterilecekIndirimveKampanyalar">"Musteri main ekranında gösterilecek indirim ve kampanyalar"</string>
+    <string name="YoneticiMainGosterilecekIndirimveKampanyalarBuyuk">"Musteri Main Ekranda Gösterilecek İndirim ve Kampanyalar"</string>
+    <string name="YoneticiMainİsletmeBilgileri">"İşletme Bilgileri"</string>
+    <string name="YoneticiMainİsletmeBilgileriniGiriniz">"İşletme Bilgilerini giriniz."</string>
+
+    //Personel
+    <string name="PersonelBaslik">"Personeller"</string>
+    <string name="PersonelDetayAdi">"ADI          "</string>
+    <string name="PersonelDetayGorev">"GÖREV    "</string>
+    <string name="PersonelDetayTelefon">"TELEFON "</string>
+    <string name="PersonelDetayAdiHint">"Personelin adı soyadı"</string>
+    <string name="PersonelDetayGorevHint">"Personelin görevi"</string>
+    <string name="PersonelDetayTelefonHint">"Personelin telefonu"</string>
+    <string name="PersonelDetayNotlar">"Notlar"</string>
+    <string name="PersonelAdiveGorevi">"Personel adı - görevi"</string>
+    <string name="PersonelEkleme">"Perosnel ekleme"</string>
+    <string name="PersonelEklemeAciklama">"Personel eklemek için personelin işletme qr codunu okutması gerekiyor."</string>
+    <string name="PersonelBilgileriKayitEdildi">"Personel bilgileri kayıt edildi."</string>
+    <string name="PersonelCardTasarim">"Personel adı - görevi"</string>
+
+    //Masalar
+    <string name="MasalarBaslik">"MASALAR "</string>
+    <string name="MasalarDetayBaslik">"Masa 1"</string>
+    <string name="MasalarDetayGelenMesajlar">Gelen Bildirimler</string>
+    <string name="MasalarDetayMasa">"Masa "</string>
+    <string name="MasalarIsletmeIDHatasi">"İşletme ID hatası alındı."</string>
+    <string name="MasalarMasaIsmıDegistirme">"Masa ismi değiştirme yalnızca işletme yöneticisi tarafından yapılabilir."</string>
+    <string name="MasalarSiparislerBuraya">"Sparişleri buraya giriniz."</string>
+    <string name="MasalarSiparislerGonderildi">"Sparişler gönderildi."</string>
+    <string name="MasalarSiparislerIptalEdildi">"Sparişler iptal edildi."</string>
+    <string name="MasalarMasanınAdi">"Masanın adı "</string>
+    <string name="MasalarDegisti">" olarak değiştirildi."</string>
+    <string name="MasalarIsletmeQRKodu">"İşletme QR Kodu"</string>
+
+    //İstekMesaj Dilek ve şikayetler
+    <string name="IstekGorusOneri">"Görüş veya Öneriler"</string>
+    <string name="IstekKurumYonetimi">"Kurum Yönetimine Görüş ve \nÖneride Bulun"</string>
+    <string name="IstekGonderButton">"Gönder"</string>
+    <string name="IstekUygulamaGelistiricisineIstek">"Uygulama gelistiricisine geri bildirimde bulun"</string>
+    <string name="IStekMusteriMail">"Musteri Mail : "</string>
+    <string name="IstekUygulamaGelistiriciyeMesajGonderildi">" Uygulama geliştiriciye mesajınız iletildi."</string>
+    <string name="IstekIsletmeSahibineMesajIletildi">"İşletme sahibine mesajınız gönderildi."</string>
+    <string name="IstekQrCodeOkutulamadıgıIcınGonderilemedi">" Qr code okutulmadığı için veri gönderilemedi."</string>
+    <string name="IstekUygulamaGeriBildirim">"Uygulama geri bildirim"</string>
+    <string name="IstekIsletmeYonetımıneGorusOnerideBulun">"İşletme Yönetimine Görüş ve Öneride Bulun"</string>
+    <string name="IstekUygulamaGelistiricisineIstekMesajıGiriniz">"Uygulama geliştiricisine iletmek istediğiniz \nisteklerinizi giriniz"</string>
+    <string name="IstekUygulamaGelistiricisineIstekMesajıGirinizKisa">"Uygulama geliştiricisine iletmek istediğiniz \nisteklerinizi giriniz"</string>
+    <string name="IstekUygulamaGelsitircisineGorusOnerideBulun">"Uygulama gelistiricisine görüş ve öneride bulun"</string>
+    <string name="IstekKurumYonetimineGorusOnerideBulun">"Kurum Yönetimine Görüş ve Öneride Bulun"</string>
+    <string name="IstekDilekveSikayetler">"Dilek ve Şikayetler"</string>
+    <string name="IstekMasaAdiTarih">"Masa adı ve tarih saat"</string>
+    <string name="IstekDilekveSikayet">"Dilek ve şikayet"</string>
+    <string name="IstekMusteriAdveEmail">"musteri ad ve e mail"</string>
+
+    // IsletmeSecim
+    <string name="IsletmeSecimİsletmeSeciniz">"İşletme Seçiniz"</string>
+    <string name="IsletmeSecimIsletmeyeDahilOlText">"Var olan bir işletmede çalışıyorsanız aşağıdaki butona basın ve İŞLETME QR kodunu taratınız."</string>
+    <string name="IsletmeSecimIsletmeyeDahilOlButton">"İşletmeye dahil ol"</string>
+    <string name="IsletmeSecimIsletmeKurButton">"Yeni İşletme Kur"</string>
+    <string name="IsletmeSecimIsletmeKurText">"İşletme sahibi yada yöneticiyseniz işletmenizi kurmak için aşağıdaki butona basınız."</string>
+    <string name="IsletmeSecimIsletmeKurmadaHata">"işletme kurmada hata oluştu."</string>
+    <string name="IsletmeSecimTebriklerIsletmenizBasariylaKuruldu">"Tebrikler, İşletmeniz başarıyla kuruldu !!!"</string>
+
+    // Cagrilar
+    <string name="CagrilarGelenTumBildirimler">"Gelen Tüm Bildirimler"</string>
+    <string name="CagrilarSiparis">"Sipariş"</string>
+
+
+    // Ayarlar activity
+    <string name="AyarlarName">"AYARLAR "</string>
+    <string name="AyarlarProfilGizliligi">"PROFİL"</string>
+    <string name="AyarlarKullanıcıAdiGorunsunMu">"Kullanıcı adınımı göster"</string>
+    <string name="AyarlarIsletme">"İŞLETME"</string>
+    <string name="AyarlarZilSesiAyarlari">"Zil sesi ayarları"</string>
+    <string name="AyarlarBildirimZilTonuSec">"Bildirim Zil Tonu seç"</string>
+    <string name="AyarlarIsletmeModu">"İşletme modu"</string>
+    <string name="AyarlarIsletmeKur">"İşletme oluştur"</string>
+    <string name="AyarlarBildirimSaati">"Bildirim saati : "</string>
+    <string name="AyarlarUygulamaHakkında">"Uygulama Hakkında"</string>
+    <string name="AyarlarUygulamaHakkındaKısaBilgilendirme">"Uygulama Hakkında Kısa Bilgilendirme"</string>
+    <string name="AyarlarMerhaba">"Merhaba "</string>
+    <string name="AyarlarBilgilendirmeMetni">"\n\nCallBell uygulamasına hoşgeldiniz.\n\nUyglama üzerinden menüye göz atabilir, " +
+                        "sipariş verebilir, garsonu çağırabilir, kampanyaları görebilir, gittiğiniz yerleri görebilir, " +
+                        "istediğiniz zaman gittiğiniz yerlerin menüsüne bakabilir güncel bilgilerine ulaşabilir, görüş " +
+                        "öneride bulunabilirsiniz.\n\nSizde masanızda bulunan CallBell QR codunu okutun ve başlayalım... " +
+                        "\n\n(Şayet masanızda CallBell QR kodu bulunmuyorsa bu eşsiz fırsatı neden kaçırdıklarını sorun.) " +
+                        "\n\nİşletme sahibiyseniz bunların hepsini hiçbir ücret ödemeden yapmak için lütfen ayarlar sekmesinden " +
+                        "işletme modunuzu azçınız."</string>
+    <string name="AyarlarAlarmAyarlandı">"Alarm ayarlandı"</string>
+    <string name="AyarlarSaatSeciniz">"Saat Seçiniz"</string>
+    <string name="AyarlarAyarla">"Ayarla"</string>
+
+    //Login activity
+    <string name="LoginEmailHint">"   Mail adresi"</string>
+    <string name="loginPasswordHint">"   Şifre"</string>
+    <string name="LoginGirisButon">"Oturum aç"</string>
+    <string name="LoginKayitEditText">"Kayıt ol"</string>
+    <string name="LoginKullaniciAdiVeParolaHatali">"Kullanıcı adı veya parola hatalı."</string>
+    <string name="LoginOturumAcildiYazi">"Oturum açıldı : "</string>
+    <string name="LoginKayitAdHint">"   Ad"</string>
+    <string name="LoginKayitSoyadHint">"Soyad"</string>
+    <string name="LoginKayitEmailHint">"E mail"</string>
+    <string name="LoginKayitSifreHint">"   Şifre"</string>
+    <string name="LoginKaiytKaydetButton">"Kaydet"</string>
+    <string name="LoginKayitBasarili">"Giriş başarılı."</string>
+    <string name="LoginKayitHatali">"Giriş hatalı."</string>
+    <string name="LoginKayitKullanıcıAdı">"Kullanıcı adı : "</string>
+    <string name="LoginEmailGiriniz">"lütfen E mail adresi giriniz."</string>
+    <string name="LoginParolaGiriniz">"lütfen parolanızı giriniz."</string>
+    <string name="LoginParola6RakamdanAz">"Parola 6 rakamdan az olamaz."</string>
+    <string name="LoginParolaEmail">"E mail adresinde '@' olmalıdır."</string>
+    <string name="LoginParolaEmailSonu">"E mail adresinin sonu '.com, .net' vb. ile bitmelidir."</string>
+    <string name="LoginSifremiUnuttum">"Şifremi unuttum"</string>
+    <string name="LoginAdresineGonderildi">" adresine gönderildi"</string>
+    <string name="LoginSifreGuncellemedeHataOlustu">"Şifre güncellemede hata oluştu, e-mail adresinizi kontrol ediniz"</string>
+
+    // geçmiş yerler activity
+    <string name="GecmisYerlerZiyaretEdilenYerler">"Ziyaret Edilen Yerler"</string>
+
+    // gelen Kutusu activity
+    <string name="GelenKutusuGelenMesajlar">"Gelen Mesajlar"</string>
+    <string name="GelenKutusuIsletmeAdiVeTarih">"İşletme adı - tarih saat"</string>
+    <string name="GelenKutusuMetni">"İşletmenin günlük indirim ve kampanya metni"</string>
+
+    // işletme bilgiler activity
+    <string name="IsletmeBilgilerIsletmeAdınızıGiriniz">"İşletmenizin adını giriniz"</string>
+    <string name="IsletmeBilgilerIsletmeSloganınızıGiriniz">"İşletmenizin sloganını giriniz"</string>
+    <string name="IsletmeBilgilerTelefon">"Telefon"</string>
+    <string name="IsletmeBilgilerEmail">"E mail"</string>
+    <string name="IsletmeBilgilerWebAdres">"Web adres"</string>
+    <string name="IsletmeBilgilerAdres">"Adres"</string>
+    <string name="IsletmeBilgilerResimDegistirilsinMi">"Resim değiştirilsin mi?"</string>
+    <string name="IsletmeBilgilerResimYuklemedeHataOlustu">"Resim yuklemede hata oluştu. Lütfen tekrar deneyiniz."</string>
+    <string name="IsletmeBilgilerResimYuklemeTamamlandı">"Resim Yukleme Tamamlandı"</string>
+    <string name="IsletmeBilgilerTitle">"İşletme bilgileri"</string>
+
+    // işletme Mesajları Activity
+    <string name="IsletmeMesajlariSlogan">"CallBell bir zilden daha fazlası..."</string>
+    <string name="IsletmeMesajlariBilgiler">"Bilgiler"</string>
+    <string name="IsletmeMesajlariMenu">"Menü"</string>
+    <string name="IsletmeMesajlariKampanya">"Kampanya"</string>
+    <string name="IsletmeMesajlariTel">"Tel : "</string>
+    <string name="IsletmeMesajlariEmail">"E-mail : "</string>
+    <string name="IsletmeMesajlariWeb">"Web : "</string>
+    <string name="IsletmeMesajlariAdres">"Adres : "</string>
+    <string name="IsletmeMesajlariSaatTarih">"Tarih ve Saat"</string>
+    <string name="IsletmeMesajlariMetni">"Günlük kampanya metni"</string>
+    <string name="IsletmeMesajlariKampanyaVeDuyuruMesajlari">"Kampanya ve duyuru mesajları"</string>
+    <string name="IsletmeMesajlariKampanyaVeDuyuruMesajlarıGiriniz">"Kampanya ve duyuru mesajları giriniz."</string>
+    <string name="IsletmeMesajlariBilgilendirme">"Bilgilendirme"</string>
+    <string name="IsletmeMesajlariBilgilendirmeMesajlari">
+                        "       Bu bölümde gireceğiniz mesajlar sizi daha önceden ziyaret eden müşterilerinize bildirim olarak gönderilecektir. \n" +
+                        "       İşletmenizi sürekli olarak hatırlatmak ve onları bıktırmamak için günde 1-2 bildirim göndermeniz önemlidir. \n" +
+                        "       Özellikle kampanya ve yaklaşan etkinlikleri duyurmak oldukça etkili bir pazarlama yöntemidir. \n" +
+                        "       Ücretsiz olarak hizmete sunulan bu servisinizi sms veya email pazarlaması olarak düşünebilirsiniz."</string>
+    <string name="IsletmeMesajlariTelefon2">"Tel      : "</string>
+    <string name="IsletmeMesajlariemail2">"\nE-mail : "</string>
+    <string name="IsletmeMesajlariWebAdres2">"\nWeb    : "</string>
+    <string name="IsletmeMesajlariAdress2">"\nAdres  : "</string>
+    <string name="IsletmeMesajlariIsletmeMesajlariGirilmemis">"İşletme bilgileri işletme tarafından girilmemiş."</string>
+    <string name="IsletmeMesajlariIsletmeBilgileri">"İşletme Bilgileri"</string>
+
+
+    //Kampanya Ekle Activity
+    <string name="KampanyaEkleYukle">"Yükle"</string>
+    <string name="KamoanyaResmiYukleBaslik">"Kampanya Resmi Yükle"</string>
+    <string name="KampanyaResmiResimYuklemedeHataOlustu">"Resim yuklemede hata oluştu. Lütfen tekrar deneyiniz."</string>
+    <string name="KampanyaResimleriResimDoldu">"7 / 7 Yükleme Yapmak için var olanlardan resim silmelisiniz..."</string>
+
+    // Kampanya goster aktivity
+    <string name="KampanyaGosterIsletmeHenüzResimEklemedi">"İşletme henüz Kampanya resmi eklemedi"</string>
+
+    // Menu göster activity
+    <string name="MenuGosterIsletmeHenuzResimEklemedi">"İşletme henüz menu resmi eklenmedi"</string>
+    <string name="MenuGosterIsletmeModuAcikOlduguIcın">"İşletme modu açık olduğundan dolayı masalar ekranından masa seçilerek sipariş giriniz."</string>
+    <string name="MenuGosterResimleriResimDoldu">"14 / 14 Yükleme Yapmak için var olanlardan resim silmelisiniz..."</string>
+    <string name="MenuGosterSparisinizıletildi">"Sparişiniz iletildi"</string>
+
+    //Menu Resim Ekle Activity
+    <string name="MenuEkleBaslik">"Menu Resimi Ekle"</string>
+
+    //Yonetici Main Activity
+    <string name="YoneticiMainMenuResimleri">"Menü Resimleri"</string>
+    <string name="YoneticiMainKampanyaResimleri">"Kampanya Resimleri"</string>
+    <string name="YoneticiMainIsletmeBilgileri">"İşletme bilgileri"</string>
+    <string name="YoneticiMainGunlukKampanyalarım">"Günlük Kampanyalarım"</string>
+    <string name="YoneticiMainMesajlar">"Mesajlar"</string>
+
+    //AlarmReceiver
+    <string name="AlarmReceiverAlarmMetni">"Sizin için seçtiğimiz muhteşem kampanyalara bakmak istemez misiniz?"</string>
+
+
+
+    //kampanya ekle activity
+    <string name="kampanyaEkleBilgilendirme">"
+        - Kampanya resimleri masalarda yer alan resimli pazarlama araçlarını (broşür) ekleyebileceğiniz alandır.\n
+        - Fotoğraflarınız müşterinin ana ekranında ve işletme sayfa bilginizde görünecek.\n
+        - Kullanılacak resimlerde 1 X 1 , 4 X 3 gibi oranların tercih edilmesi önerilir."</string>
+
+    //Menu Resim Ekle Activity
+    <string name="menuResimEkleBilgilendirme">"
+        - Mevcut menü fotograflarını ekleyebileceğiniz alandır.\n
+        - Müşteri dilediği zaman menünüzü anlık olarak görüntüleyebilecektir.\n
+        - Resimleriniz tam sayfa görüntülenecektir, 1 X 2 , 3 X 4 gibi oranların tercih edilmesi önerilir."</string>
+
+
+    // Menuler
+    <string name="MenuBottomMain">"Main"</string>
+    <string name="MenuBottomTara">"Scan"</string>
+    <string name="MenuBottomProfil">"Profile"</string>
+    <string name="MenuBottomGecmis">"Geçmiş"</string>
+    <string name="MenuBottomGelenKutusu">"Gelen Kutusu"</string>
+    <string name="MenuBottomAyarlar">"Ayarlar"</string>
+
+</resources>
