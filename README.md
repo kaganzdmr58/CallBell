@@ -1,4 +1,4 @@
-# callBell - Çağrı Zili Uygulaması
+# CallBell - Çağrı Zili Uygulaması
 
 ![image](https://user-images.githubusercontent.com/58965229/126894825-4c948fd0-8fd6-4ee5-92cb-9c06bf507da4.png)
 
